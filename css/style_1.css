@@ -468,6 +468,7 @@ a .text-white{
 	}
 #fh5co-single-content p,
 #fh5co-single-content ul li{
+	text-align: justify;
 	font-size:1.05rem
 	}
 /*# sourceMappingURL=style_1.css.map */
