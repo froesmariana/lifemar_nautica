@@ -98,8 +98,8 @@ a .text-white{
 	-webkit-transition:all .5s ease;
 	-ms-transition:all .5s ease;
 	transition:all .5s ease;
-	background:#8f7e54 !important;
-	/*-webkit-clip-path:polygon(100% 0, 100% 85%, 14% 85%, 0 100%, 0% 60%, 0 0);
+	/*background:#8f7e54 !important;
+	-webkit-clip-path:polygon(100% 0, 100% 85%, 14% 85%, 0 100%, 0% 60%, 0 0);
 	-moz-clip-path:polygon(100% 0, 100% 85%, 14% 85%, 0 100%, 0% 60%, 0 0);
 	-ms-clip-path:polygon(100% 0, 100% 85%, 14% 85%, 0 100%, 0% 60%, 0 0);
 	clip-path:polygon(100% 0, 100% 85%, 14% 85%, 0 100%, 0% 60%, 0 0)*/
