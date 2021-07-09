@@ -169,20 +169,20 @@
         </div>
         <div class="row">
             <div class="col-12 col-md-6">
-                <form class="row" id="fh5co_contact_form">
+                <form class="row" method="POST" action = "./email.php"id="fh5co_contact_form">
                     <div class="col-12 py-3">
-                        <input type="text" class="form-control fh5co_contact_text_box" placeholder="Insira seu nome" />
+                        <input type="text" class="form-control fh5co_contact_text_box" name ="nome" placeholder="Insira seu nome" />
                     </div>
                     <div class="col-6 py-3">
-                        <input type="text" class="form-control fh5co_contact_text_box" placeholder="E-mail" />
+                        <input type="text" class="form-control fh5co_contact_text_box" name = "email" placeholder="E-mail" />
                     </div>
                     <div class="col-6 py-3">
-                        <input type="text" class="form-control fh5co_contact_text_box" placeholder="Assunto" />
+                        <input type="text" class="form-control fh5co_contact_text_box"  name = "assunto" placeholder="Assunto" />
                     </div>
                     <div class="col-12 py-3">
-                        <textarea class="form-control fh5co_contacts_message" placeholder="Mensagem"></textarea>
+                        <textarea class="form-control fh5co_contacts_message" name = "message" placeholder="Mensagem"></textarea>
                     </div>
-                    <div class="col-12 py-3 text-center"> <a href="#" class="btn contact_btn">Enviar Mensagem</a> </div>
+                    <div class="col-12 py-3 text-center" type = "submit" value = enviar> <a href="#" class="btn contact_btn">Enviar Mensagem</a> </div>
                 </form>
             </div>
             <div class="col-12 col-md-6 align-self-center">
