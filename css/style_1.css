@@ -1,4 +1,4 @@
-a,a:hover{color:#8f7e54
+a,a:hover{color:#fff
 	}
 a .text-white{
 	color: #000ç
@@ -132,6 +132,13 @@ a .text-white{
 	padding-right:20px !important;
 	margin:0 20px;position:relative
 	}
+
+/*botaodo whatsapp*/
+
+button{
+	cursor: pointer;
+	color: #8f7e54;
+}
 
 /*textos dos links da HOME*/
 
@@ -425,6 +432,13 @@ a .text-white{
 	position:relative;
 	height:700px;
 	width:100%
+	}
+
+	/*whatsapp footer*/
+
+	.whatsapp_footer{
+		width: 50px;
+		height: 50px;
 	}
 #fh5co-title-box .overlay{
 	position:absolute;
